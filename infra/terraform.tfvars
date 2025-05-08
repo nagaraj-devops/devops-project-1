@@ -6,11 +6,11 @@ vpc_cidr             = "10.0.0.0/16"
 vpc_name             = "dev-proj-eu-central-vpc-1"
 cidr_public_subnet   = ["10.0.1.0/24", "10.0.2.0/24"]
 cidr_private_subnet  = ["10.0.3.0/24", "10.0.4.0/24"]
-eu_availability_zone = ["eu-central-1a", "eu-central-1b"]
+eu_availability_zone = ["us-east-2a", "us-east-2b"]
 
-public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDwmgMHFJE7J4qepIzAZL3/yC6J0zsEAb/oHYL+WBBDNUjSH4TeHUnHVNe9b/pyPcub+O/HNvlGrzSxUp0xT0b3O7kkTtgBKiG8NaBbonj+c7byfOGER80DYxc5adlBltuIDd8StFe7OMzbYyUSr1mdxDTIWm/OoE39G/fu3hTqUGkykv072GAy8nMFejITRw9pf+53B9ziE5rsdOUH4uqBiQa/Ng/qKo7h9MtJGcloRATYiObXwAgrHtt3sDrtvkq2ZceT906/BJm1Twlm+BHlQecHV18Ak3bzm/6HzlsA/q+yORsoB+VxSUxvVy0nXTc1X8vJAD4KSYVL5DTrpisdnQAIcuqAbea+LMku2o4sdnrrIlUi8/8BXeVbI4TNNGd0+sWpCVcDEhb4gyA/XXTvloQyjTYrL4+am/9XEY6NGdsrPK74sjvtpUZPUrmzTJ/mJWG5ncGY88GAj+YZAsY5pnAqh2CkR2TUpglugldnWyrppbe2QyC9iQkgUGSkBTs= rahulwagh@Rahuls-MacBook-Pro.local"
-ec2_ami_id     = "ami-06dd92ecc74fdfb36"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDYTT1jObbpeSXpfyK10OgQAHYX9li7Hqe23iH0pyz7f6DZ6BEhgighYcBzJI20a4ocIe7FeoS34dJoYPpswRSUskxmQcekUsFDtb6NJ8L9cElGLjpZUXtcVJ7m6Ig0g0gy5KYBMqKBC/mOyNRvny6Cw30NjFi7wjU5MeBSuFCn4XCH2BtdvcP9+1zvkzGbITun9JMMKoXg70Ker6ADIW5BGIa7/O4QhKCSP94f0FVnVAL6kz0mwFmZ+R8V1WDlf/Ip2LFlpZBI/g66KRRwURZ4OSKJLSQY36Sz3v6w5ltULr1O0qM2/KAC1Sx3iG1wAD4N9vXiBU/7UhtRDrGxEWWqkVJDkEsf2SiF/DVaUvOoENIOR/8ZZbdItFPRc1BpJ+NNgDO+xHDZUb+t9X0qaVwVrZbWzoFmX+DQQQEMYO/r5JyILtd4toQZeHZJcnDtPnRkgNPrmVErihhRHZWqbM64meWDcaZ/4x/JpCo7bXB459jx7hayjQEgKBnpixHmu/+lLM8UpWnNXc3NNdQb8rZ0a/Pq++riQlgssBwiBgG6g9b06NNp8mPtxgBEPeW2wQlBsirpubddlgxnzGd0Us2TpeLyN6pAEBhoVnodXqrLrp0/TbSstJqzxuezVBFDRbfxwXuCW9cBcCbogYERCGnP9gk4lfT1VCEcuxmNqtx+Fw== nagaraj@nagaraj-Latitude-5420
+ec2_ami_id     = "ami-0c3b809fcf2445b6a"
 
 ec2_user_data_install_apache = ""
 
-domain_name = "jhooq.org"
+domain_name = "nagaraj.site"
